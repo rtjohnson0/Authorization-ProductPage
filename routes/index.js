@@ -5,7 +5,7 @@ const verifyToken = require('../auth').verifyToken
 
 const usersRouter = new express.Router()
 
-usersRouter.route('/').get(usersCtrl.index)
+
 usersRouter.route('/allProducts').get(usersCtrl.allProducts)
 usersRouter.route('/allSports').get(usersCtrl.sportsGames)
 
@@ -14,6 +14,8 @@ usersRouter.route('/').post(usersCtrl.create)
 usersRouter.post('/authenticate', usersCtrl.authenticate)
 
 usersRouter.use(verifyToken)
+usersRouter.route('/').get(usersCtrl.index)
+usersRouter.route('/allProducts').get(usersCtrl.allProducts)
 
 usersRouter.route('/:id').get(usersCtrl.show)
 
