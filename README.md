@@ -45,7 +45,7 @@ Author(s) contributed to all back-end and front-end code to this project. All au
 License
 ----
 
-MIT [https://github.com/rtjohnson0/Lifesports/blob/master/LICENSE.md]
+MIT - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
 
