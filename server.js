@@ -38,6 +38,10 @@ app.get('/api', (req, res) => {
 })
 
 app.use('/api/users', usersRoutes)
+app.get('*', function(req, res, next) {
+	if (req.url === '/api/users' || req.url === '/api/users/allProducts') return next();
+	
+  });
 
 app.use('*', (req, res) => {
 	res.sendFile(`${__dirname}/client/build/index.html`)
