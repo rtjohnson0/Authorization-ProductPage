@@ -81,9 +81,10 @@ const Home = (props) => {
 
 
                         <div class="white">
-                            <p class="lead font-weight-normal text-white ">Feel free to come in or call to put your name on the list for the first release! Call 740-555-5555 to get your game today!.</p>
+                            <p class="lead font-weight-normal text-white">Feel free to come in or call to put your name on the list for the first release! Call 740-555-5555 to get your game today!.</p>
                         </div>
                        
+                        
                     </div>
                     <div class="product-device shadow-sm d-none d-md-block "></div>
                     <div class="product-device product-device-2 shadow-sm d-none d-md-block "></div>
