@@ -41,7 +41,7 @@ const Home = (props) => {
 
                             </div>
                             <div class="carousel-item">
-                                <img src="images/image3.jpg" alt="Nintendo Switch" width="1100" height="500" />
+                                <img src="images/image5.jpg" alt="Nintendo Switch" width="1100" height="500" />
                                 <div class="carousel-caption">
                                     <h3>Nintendo Switch NEW & Refurbished</h3>
                                     <h4>As Low As $229</h4>
@@ -96,9 +96,9 @@ const Home = (props) => {
                     <p class="lead ">Then follow these steps below on how we can help you out! You'll even get money for it!</p>
                 </div>
 
-                <div class="bg-secondary shadow-sm mx-auto " style={{ width: '80%', height: '300px', borderRadius: '21px 21px 0 0' }}>
+<!--                 <div class="bg-secondary shadow-sm mx-auto " style={{ width: '80%', height: '300px', borderRadius: '21px 21px 0 0' }}>
                     <img src="https://cdn.wccftech.com/wp-content/uploads/2016/09/GameSpot-Trade-in-Deal-1.jpg" alt="Trade in" height="300" width="80%" />
-                </div>
+                </div> -->
             </div>
 
 
