@@ -23,7 +23,7 @@ const Home = (props) => {
                     <main>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="https://www.gadgetmatch.com/wp-content/uploads/2019/02/Sony-PS4-stock-photo.jpg" alt="Playstation 4" width="1100" height="500" />
+                                <img src="images/image2.jpg" alt="Playstation 4" width="1100" height="500" />
                                 <div class="carousel-caption">
                                     <h3>Playstation 4 NEW & Refurbished</h3>
                                     <h4>As Low As $199!</h4>
@@ -32,7 +32,7 @@ const Home = (props) => {
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="https://www.bailiwickexpress.com/files/cache/8399d30998e6fbe109d9bd0d3677a4aa_f772600.jpg" alt="Xbox 1" width="1100" height="500" />
+                                <img src="images/image1.jpg" alt="Xbox 1" width="1100" height="500" />
                                 <div class="carousel-caption">
                                     <h3>Xbox 1 NEW & Refurbished</h3>
                                     <h4>As Low As $179</h4>
@@ -41,7 +41,7 @@ const Home = (props) => {
 
                             </div>
                             <div class="carousel-item">
-                                <img src="https://www.telegraph.co.uk/content/dam/technology/2017/01/13/JS117767893_EPA_Nintendo-Switch-presentation-in-Offenbach_trans_NvBQzQNjv4BqYBEWvMdcMFfUabU60-4H71wP4cZC2op4cETTPN2xDHg.jpg?imwidth=450" alt="Nintendo Switch" width="1100" height="500" />
+                                <img src="images/image3.jpg" alt="Nintendo Switch" width="1100" height="500" />
                                 <div class="carousel-caption">
                                     <h3>Nintendo Switch NEW & Refurbished</h3>
                                     <h4>As Low As $229</h4>
